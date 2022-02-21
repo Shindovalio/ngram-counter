@@ -8,8 +8,8 @@ For the sake of speed, I will skip doing the following:
 
 I won't be use the react router since the task requires only a few components.
 
-Start: 21 Feb 2022 19:00 CET
-Finish: 21 Feb 2022 22:00 CET
+# Start: 21 Feb 2022 19:00 CET
+# Finish: 21 Feb 2022 22:00 CET
 
 If I had more time, I would have made the following improvements:
 
