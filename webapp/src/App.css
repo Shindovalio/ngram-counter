@@ -1,0 +1,37 @@
+.table-container,
+.hisogram-container {
+	height: 83%;
+	width: 90%;
+	align-self: center;
+	margin: var(--spacing-l);
+	padding: var(--spacing-s);
+}
+/* Table */
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+td,
+th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: var(--spacing-s);
+}
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+tr:nth-child(odd) {
+	background-color: white;
+}
+.input-wrap {
+	display: flex;
+	justify-content: flex-start;
+	width: 90%;
+	margin: var(--spacing-s) auto;
+	height: 17%;
+}
+.empty-msg {
+	align-self: center;
+	margin: var(--spacing-xxxl) 0;
+}

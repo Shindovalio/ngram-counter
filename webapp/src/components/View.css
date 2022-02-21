@@ -1,0 +1,34 @@
+.view-container {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 0 var(--spacing-s);
+}
+.view-btn {
+	height: var(--spacing-xxl);
+	width: 100%;
+	margin: var(--spacing-s) 0 0 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.Table-view {
+	background-color: green;
+	color: white;
+	border-radius: 50px;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+.Table-view:active {
+	background-color: rgba(0, 128, 0, 0.9);
+}
+.Chart-view {
+	background-color: purple;
+	color: white;
+	border-radius: 50px;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+.Chart-view:active {
+	background-color: rgba(128, 0, 128, 0.9);
+}

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700&family=Montserrat:wght@100;400;700&display=swap");
+@media only screen and (min-width: 1030px) {
+	* {
+		font-size: 16px;
+	}
+}
+@media only screen and (max-width: 1030px) {
+	* {
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 800px) {
+	* {
+		font-size: 16px;
+	}
+}
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	word-wrap: break-word;
+	background-repeat: no-repeat;
+}
+body {
+	margin: 0;
+	font-family: "Montserrat", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: var(--light-gray);
+}
+#root {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+	height: 100vh;
+}
+/* Variables */
+:root {
+	/* Colors */
+	--white: rgb(255, 255, 255);
+	--light-gray: rgb(240, 240, 240);
+	--gray: rgb(200, 200, 200);
+	--dark-gray: rgb(140, 140, 140);
+	--black: rgb(0, 0, 0);
+	--gray-hover: rgba(0, 0, 0, 0.1);
+	--light-gray-hover: rgba(240, 240, 240, 0.1);
+	--orange: rgba(230, 135, 41, 1);
+	--orange-hover: rgb(255, 155, 55);
+	--et-orange: #ffbd1b;
+	/* Borders */
+	--basic-border: 10px;
+	--round-border: 50px;
+	--circle-border: 50%;
+	/* Spacing */
+	--spacing-xs: 0.5rem;
+	--spacing-s: 1rem;
+	--spacing-m: 1.5rem;
+	--spacing-l: 2rem;
+	--spacing-xl: 2.5rem;
+	--spacing-xxl: 3rem;
+	--spacing-xxxl: 4rem;
+	/* Font Size */
+	--font-size-xxs: 0.75rem;
+	--font-size-xs: 0.9rem;
+	--font-size-s: 1rem;
+}
+.custom-scroll {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	scrollbar-color: lightgray rgba(0, 0, 0, 0);
+	scrollbar-width: thin;
+}
+/* width */
+.custom-scroll::-webkit-scrollbar {
+	width: 10px;
+}
+/* Track */
+.custom-scroll::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0);
+}
+/* Handle */
+.custom-scroll::-webkit-scrollbar-thumb {
+	background: lightgray;
+	border-radius: 50px;
+}
+/* Handle on hover */
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+.shadow {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+.heavy-shadow {
+	box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 93, 0.1), 0px 2px 5px 0px rgba(50, 50, 93, 0.1),
+		0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);
+}
+label {
+	font-weight: bold;
+}
+input {
+	height: var(--spacing-xxl);
+	padding: 0 var(--spacing-s);
+}
